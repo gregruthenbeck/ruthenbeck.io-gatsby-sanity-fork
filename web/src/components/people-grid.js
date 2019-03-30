@@ -13,8 +13,8 @@ function ProfileCard ({ image, name, _rawBio }) {
         {image && image.asset && (
           <img
             src={imageUrlFor(buildImageObj(image))
-              .width(600)
-              .height(600)
+              .width(300)
+              .height(300)
               .fit('crop')
               .url()}
           />

@@ -4,21 +4,21 @@
 .root {
   background: var(--color-black);
   color: var(--color-white);
-  margin: 2rem -1.5rem;
+  margin: 1rem -1rem;
   overflow: hidden;
-  padding: 1rem;
+  padding: .35rem;
 
   @media (--media-min-small) {
     margin: 2rem -2rem;
   }
 
   @media (--media-min-medium) {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 }
 
 .nav {
-  padding: 0.5rem 0.5rem 1rem;
+  padding: 0.35rem 0.35rem .5rem;
   display: flex;
   justify-content: space-between;
 
