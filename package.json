@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "example-company-website-gatsby-sanity-combo",
+  "name": "ruthenbeck.io",
   "version": "1.0.0",
   "author": "Sanity <hello@sanity.io>",
   "scripts": {
@@ -20,5 +20,28 @@
   "devDependencies": {
     "lerna": "^3.13.1",
     "rimraf": "^2.6.3"
-  }
+  },
+  "description": "This examples combines [Gatsby](https://www.gatsbyjs.org/) site generation with [Sanity](https://www.sanity.io) content management in a neat little company website. Read [the blog post](https://www.sanity.io/blog/get-started-with-gatsby-and-structured-content) and [see the getting started video](https://www.youtube.com/watch?v=qU4lFYp3KiQ).",
+  "main": "index.js",
+  "dependencies": {
+    "@reach/router": "^1.0.11",
+    "eslint-plugin-graphql": "^3.0.3",
+    "express-graphql": "^0.7.1",
+    "gatsby": "^2.3.4",
+    "gatsby-link": "^2.0.16",
+    "gatsby-react-router-scroll": "^2.0.7",
+    "graphql": "^14.2.0",
+    "graphql-tools": "^4.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregruthenbeck/ruthenbeck.io-gatsby-sanity-fork.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregruthenbeck/ruthenbeck.io-gatsby-sanity-fork/issues"
+  },
+  "homepage": "https://github.com/gregruthenbeck/ruthenbeck.io-gatsby-sanity-fork#readme"
 }
