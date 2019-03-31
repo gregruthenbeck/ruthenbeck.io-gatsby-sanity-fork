@@ -19,7 +19,7 @@ function Project (props) {
             src={imageUrlFor(buildImageObj(mainImage))
               .width(1200)
               .height(Math.floor((9 / 16) * 1200))
-              .fit('crop')
+              .fit('fill') // https://www.sanity.io/docs/reference/image-urls#fit-object-object
               .url()}
             alt={mainImage.alt}
           />
