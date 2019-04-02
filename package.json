@@ -28,10 +28,12 @@
     "eslint-plugin-graphql": "^3.0.3",
     "express-graphql": "^0.7.1",
     "gatsby": "^2.3.4",
+    "gatsby-cli": "^2.5.4",
     "gatsby-link": "^2.0.16",
     "gatsby-react-router-scroll": "^2.0.3",
     "graphql": "^14.2.0",
     "graphql-tools": "^4.0.4",
+    "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "ts-pnp": "^1.0.1"
