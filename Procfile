@@ -1,1 +1,1 @@
-web: gatsby develop -p  -H 0.0.0.0
+web: gatsby develop -H 0.0.0.0
